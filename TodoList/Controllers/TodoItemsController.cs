@@ -8,7 +8,7 @@ using TodoList.Models;
 
 namespace TodoList.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class TodoItemsController : ControllerBase
     {
