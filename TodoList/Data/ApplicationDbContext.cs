@@ -8,5 +8,6 @@ namespace TodoList.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options) { }
         
         public DbSet<TodoItems> todoItems { get; set; }  
+        public DbSet<Users> users { get; set; }  
     }
 }
